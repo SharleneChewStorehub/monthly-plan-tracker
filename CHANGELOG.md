@@ -25,6 +25,28 @@ Each entry includes:
 
 #### 2025-07-12 - Initial Project Setup
 
+**[SETUP] GitHub Repository Connection**
+- **Phase:** Phase 1 - Project Setup
+- **Description:** 
+  - Connected local project to GitHub repository: https://github.com/SharleneChewStorehub/monthly-plan-tracker.git
+  - Updated package.json with correct repository URLs
+  - Pushed initial commit with all setup files
+  - Created basic Express.js server structure
+  - Designed comprehensive database schema for cohort analysis
+- **Impact:** 
+  - Project now version controlled and accessible on GitHub
+  - Basic backend server foundation established
+  - Database schema ready for implementation
+- **Files Created/Modified:**
+  - `src/backend/server.js` - Basic Express.js server with health check
+  - `src/database/schema.sql` - Complete database schema with indexes and views
+  - `package.json` - Updated with correct GitHub repository URLs
+  - `README.md` - Updated with correct clone instructions
+- **Next Steps:** 
+  - Install Node.js dependencies
+  - Set up local database
+  - Configure Chargebee API credentials
+
 **[SETUP] Project Structure & Documentation**
 - **Phase:** Phase 1 - Project Setup
 - **Description:** 
@@ -75,10 +97,11 @@ Each entry includes:
 
 ### Current Tasks in Progress:
 - [x] Project breakdown and documentation
-- [ ] GitHub repository initialization
+- [x] GitHub repository initialization
+- [x] Basic project structure creation
+- [x] Database schema design
 - [ ] Local development environment setup
 - [ ] Chargebee API configuration
-- [ ] Database schema design
 
 ### Completed Milestones:
 - ✅ PRD analysis and requirements gathering
